@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+.add-task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131213;
+  width: 100vh;
+  padding-top: 20px;
+  height: 100vh;
+}
+.head {
+  color: #f3aa4e;
+  font-family: 'roboto';
+  font-weight: 'bold';
+}
+.label {
+  color: #f1f5f9;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.input {
+  padding: 5px;
+  width: 270px;
+  margin-bottom: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  align-self: center;
+  background-color: #f3aa4e;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 4px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000000;
+  width: 100vh;
+}
+.head-r {
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0px;
+  background-color: #1a171d;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.not {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+.not-p {
+  color: #ffffff;
+  font-family: 'roboto';
+}

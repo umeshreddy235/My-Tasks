@@ -1,0 +1,21 @@
+.button-v {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+.button-item {
+  background-color: transparent;
+  border-radius: 10px;
+}
+.styled {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+}
